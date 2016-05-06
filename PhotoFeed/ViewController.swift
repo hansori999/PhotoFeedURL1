@@ -24,9 +24,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func updateDateLabel () {
+        
+        self.dateLabel.text = NSDate().description
+    }
 
 
     @IBAction func updateButtonAction(sender: AnyObject) {
+        
+        self.updateDateLabel()
+        
     }
 }
 
