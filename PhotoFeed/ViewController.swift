@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        /* Initial Loading */
+        self.updateDateLabel()
+        // Do any additional setup after loading the view, typically from a nib.
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -26,13 +29,21 @@ class ViewController: UIViewController {
     }
     
     func updateDateLabel () {
-        
-        self.dateLabel.text = NSDate().description
-    }
+        /* Reading Date from default file */
+        let lastUpdate = NSUserDefaults.standardUserDefaults().objectForKey("buttonTapped") as? NSDate
+        if let hasLastUpdate = lastUpdate {
+            self.dateLabel.text = hasLastUpdate.description
+        } else {
+            self.dateLabel.text = "No date saved."
+        }
+       
+     }
 
 
     @IBAction func updateButtonAction(sender: AnyObject) {
-        
+        /* Writing date into default file */
+        let now = NSDate()
+        NSUserDefaults.standardUserDefaults().setObject(now, forKey: "buttonTapped")
         self.updateDateLabel()
         
     }

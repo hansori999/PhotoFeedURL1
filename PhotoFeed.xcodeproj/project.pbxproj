@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DDBFD8C1D07E3C300E31EEF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DDBFD8B1D07E3C300E31EEF /* Settings.bundle */; };
 		3DF95EA71CDC422B00EFAE10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF95EA61CDC422B00EFAE10 /* AppDelegate.swift */; };
 		3DF95EA91CDC422B00EFAE10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF95EA81CDC422B00EFAE10 /* ViewController.swift */; };
 		3DF95EAC1CDC422B00EFAE10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF95EAA1CDC422B00EFAE10 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DDBFD8B1D07E3C300E31EEF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		3DF95EA31CDC422B00EFAE10 /* PhotoFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF95EA61CDC422B00EFAE10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DF95EA81CDC422B00EFAE10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				3DF95EB01CDC422B00EFAE10 /* Assets.xcassets */,
 				3DF95EB21CDC422B00EFAE10 /* LaunchScreen.storyboard */,
 				3DF95EB51CDC422B00EFAE10 /* Info.plist */,
+				3DDBFD8B1D07E3C300E31EEF /* Settings.bundle */,
 				3DF95EAD1CDC422B00EFAE10 /* PhotoFeed.xcdatamodeld */,
 			);
 			path = PhotoFeed;
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DDBFD8C1D07E3C300E31EEF /* Settings.bundle in Resources */,
 				3DF95EB41CDC422B00EFAE10 /* LaunchScreen.storyboard in Resources */,
 				3DF95EB11CDC422B00EFAE10 /* Assets.xcassets in Resources */,
 				3DF95EAC1CDC422B00EFAE10 /* Main.storyboard in Resources */,
@@ -488,6 +492,7 @@
 				3DF95ED01CDC422B00EFAE10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DF95ED11CDC422B00EFAE10 /* Build configuration list for PBXNativeTarget "PhotoFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				3DF95ED31CDC422B00EFAE10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DF95ED41CDC422B00EFAE10 /* Build configuration list for PBXNativeTarget "PhotoFeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				3DF95ED61CDC422B00EFAE10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
