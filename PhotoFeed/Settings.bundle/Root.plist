@@ -18,7 +18,7 @@
 			<key>Title</key>
 			<string>Search Tag</string>
 			<key>Key</key>
-			<string>PhotoURLString</string>
+			<string>PhotoFeedURLString</string>
 			<key>DefaultValue</key>
 			<string>https://api.flicker.com/services/photo_public.gne?tags=kitten&amp;format=json&amp;nojsoncallback=1</string>
 			<key>Titles</key>
